@@ -1,0 +1,39 @@
+section .list-product {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+  }
+  
+  section .list-product .product {
+    width: 23%;
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  section .list-product .product .info {
+    display: flex;
+    padding: 10px 0;
+  }
+  
+  section .list-product .product .info h3,
+  section .list-product .product .info i {
+    margin: auto;
+  }
+
+  section .list-product .product .info h3 a {
+     text-decoration: none;
+    color: black;
+  }
+  
+  section .list-product .product .xxx b {
+    margin-left: 48px;
+  }
+  
+  section .list-product .product .img img {
+    width: 100%;
+  }

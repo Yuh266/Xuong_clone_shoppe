@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chu</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/icon_favicon_1_96.wI1aMs.png">
+    
+    <style>
+      * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    height: 2000px;
+  }
+  
+  header {
+    width: 100%;
+    margin: 0 auto;
+    height: 120px;
+    background: linear-gradient(-180deg, #f53d2d, #f63);
+    position: fixed;
+    top: 0;
+  }
+  
+  header .Boc,
+  .list-product{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 3px;
+  }
+
+  header .nav-1 {
+    /* max-width: 1200px; */
+    height: 40px;
+    display: block;
+    /* margin: 0 auto; */
+  }
+  
+  header .nav-1 ul {
+    display: flex;
+    float: left;
+    /* margin: auto; */
+  }
+  
+  header .nav-1 ul li {
+    list-style: none;
+    margin: 0px 10px;
+  }
+  
+  header .nav-1 ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  header .nav-1 .phai {
+    float: right;
+  }
+  /* ============ */
+  
+  header .nav-2 {
+    height: 40px;
+    display: flex;
+    position: relative;
+  }
+  
+  header .nav-2 .search {
+    background: #fff;
+    margin-left: 35px;
+    border-radius: 5px;
+  }
+
+  header .nav-2 .logo{
+    float: left;
+  }
+
+  header .nav-2 .cart {
+    position: absolute;
+    right: 35px;
+    bottom: -5px;
+  }
+
+  header .nav-2 .logo img {
+    height: 50px;
+
+  }
+  
+  header .nav-2 .search input {
+    padding: 10px;
+    border: none;
+    width: 810px;
+    outline: none;
+  }
+  
+  header .nav-2 .search i {
+    padding: 10px;
+  }
+  
+  header .nav-3 {
+    height: 40px;
+    display: flex;
+    position: relative;
+  }
+  
+  header .nav-3 ul {
+    display: flex;
+    float: left;
+    position: absolute;
+    left: 190px;
+    top: 7px ;
+  }
+  
+  header .nav-3 ul li {
+    list-style: none;
+    margin: 0px 5px;
+  }
+  
+  header .nav-3 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* ================ */
+  footer {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(-180deg, #f53d2d, #f63);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  footer p {
+    line-height: 50px;
+  }
+  
+  /* ---------------- */
+  section {
+    margin-top: 130px;
+  }
+
+  .list-product{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+      
+  
+  
+  section .bang {
+    margin-top: 20px;
+  }
+  
+  section table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  section table tr td,
+  section table tr th {
+    padding: 10px 5px;
+  }
+  
+  section table tr:nth-child(2n + 1) {
+    background-color: #ccc;
+  }
+  
+  section .add {
+    width: 180px;
+    height: 50px;
+    background-color: #f63;
+    text-align: center;
+  }
+  
+  section .add a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+  }
+    </style>
+  </head>
+  <body>
+    <header>
+        <div class="Boc">
+          <nav class="nav-1">
+            <ul >
+              <li><a href="#">Kênh người bán</a></li>
+              <li style="margin: 0 5px ;color: white;">|</li>
+              <li><a href="#">Tải ứng dụng</a></li>
+              <li  style="margin: 0 5px ;color: white;">|</li>
+              <li style="margin-right: 0;"><a href="#">Kết nối</a></li>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+            </ul>
+            <ul class="phai" >
+              <li><a href="#">Thông báo</a></li>
+              <li><a href="#">Hỗ trợ</a></li>
+              <li><a href="#">Tiếng Việt</a></li>
+              <li><a href="register.html">Đăng nhập</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-2">
+            <div class="logo">
+              <a href="index.html"><img src="img/Logo.png" alt="" /></a>
+            </div>
+            <div class="search">
+              <input type="text" placeholder="Tìm sản phẩm, thương hiệu và tên shop" />
+              <button style="border: 1px solid red; padding: 0;  " type="submit" >
+                <i class="fa-solid fa-magnifying-glass" 
+                  style="color: white; 
+                        padding: 10px 22px ; 
+                        background: linear-gradient(-180deg, #f53d2d, #f63);
+                        margin: 3px ;
+                        border-radius: 2px ;
+                        font-size: 15px;
+                        "
+                  >     
+                </i>
+              </button>
+            </div>
+          </nav>
+
+          
+        </div>
+    </header>
+
+    <section>
+      <br><br>
+      <div class="bang">
+        <table border="1">
+          <tr>
+            <th>STT</th>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Ảnh</th>
+            <th>Sửa</th>
+            <th>Xóa</th>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <p style="color: #fff;">PH56575</p>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/791d1d50ef.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/admin.js">
+
+
+  </script>
+</html>

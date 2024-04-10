@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoppe | Chi tiết Sản Phẩm</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/icon_favicon_1_96.wI1aMs.png">
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="./css/product_detail.css" />
+  </head>
+  <body>
+    <header>
+      <div class="Boc">
+        <nav class="nav-1">
+          <ul >
+            <li><a href="#">Kênh người bán</a></li>
+            <li style="margin: 0 5px ;color: white;">|</li>
+            <li><a href="#">Tải ứng dụng</a></li>
+            <li  style="margin: 0 5px ;color: white;">|</li>
+            <li style="margin-right: 0;"><a href="#">Kết nối</a></li>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+          </ul>
+          <ul class="phai" >
+            <li><a href="#">Thông báo</a></li>
+            <li><a href="#">Hỗ trợ</a></li>
+            <li><a href="#">Tiếng Việt</a></li>
+            <li><a href="register.html">Đăng nhập</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-2">
+          <div class="logo">
+            <a href="index.html"><img src="img/Logo.png" alt="" /></a>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Tìm sản phẩm, thương hiệu và tên shop" />
+            <i class="fa-solid fa-magnifying-glass" 
+            style="color: white; 
+                  padding: 10px 22px ; 
+                  background: linear-gradient(-180deg, #f53d2d, #f63);
+                  margin: 3px ;
+                  border-radius: 2px ;
+                  font-size: 15px;
+                  "
+                  
+                  
+            >     
+            </i>
+          </div>
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping" style="color: aliceblue;"></i>
+          </div>
+        </nav>
+
+        <nav class="nav-3">
+          <ul>
+            <li><a href="#">Giấy Vệ Sinh</a></li>
+            <li><a href="#">Áo Mưa</a></li>
+            <li><a href="#">Móc Quần Áo</a></li>
+            <li><a href="#">Giấy Vệ Sinh Không Lõi</a></li>
+            <li><a href="#">Ruột Bút Bi</a></li>
+            <li><a href="#">Bitis Hunter</a></li>
+            <li><a href="#">Giày Nam</a></li>
+            <li><a href="#">Áo Mưa 2 Người</a></li>
+            <!-- <li><a href="#">Nón Bảo Hiểm 3/4</a></li> -->
+
+          </ul>
+        </nav>
+      </div>
+  </header>
+    <section>
+      <div class="product_detail">
+        <div class="img">
+          <img id="img" src="img/product_detail_img.png" alt="" />
+        </div>
+        <div class="info">
+          <h3 class="title"></h3>
+          <div class="vote">
+            <ul>
+              <li style="color: #f67">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              |
+              <li>51 đánh gia</li>
+              |
+              <li>480 đã bán</li>
+            </ul>
+          </div>
+          <br>
+          <!-- <p class="clear"></p> -->
+
+          <div class="price">
+            <!-- <br /> -->
+            <p><del>125.000</del><i id="price">100.000</i></p>
+            
+          </div>
+
+          <div class="number">
+            <p> Số Lượng </p>
+            <form action="" class="Solg">
+                <input id="tru" type="button" value="-"><input style="width: 45px; height: 29px;" type="number" value="1" min="1" id="Solg"><input type="button" value="+" id="cong" >
+            </form>
+          </div>
+
+          <p class="clear"></p>
+          <br><br><br>  
+          <div class="add_buy">
+            <button class="add">Thêm vào giỏ hàng</button>
+            <button class="buy">Mua ngay</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>NNSHOP</p>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/791d1d50ef.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/home.js">
+  </script>
+  <script src="js/product_detail.js">
+  </script>
+</html>
